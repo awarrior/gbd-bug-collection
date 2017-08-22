@@ -1,5 +1,7 @@
 # gbd-bug-collection
 
+# hive
+
 * HIVE-11837
 comments do not support unicode characters well.
 
@@ -17,3 +19,8 @@ Load data into text table fail caused by IndexOutOfBoundsException
 
 * HIVE-13749
 Memory leak in Hive Metastore
+
+# spark
+
+* SPARK-14495
+Distinct aggregation cannot be used in the having clause
