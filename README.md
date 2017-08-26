@@ -20,6 +20,9 @@ Load data into text table fail caused by IndexOutOfBoundsException
 * HIVE-13749
 Memory leak in Hive Metastore
 
+* HIVE-11927
+Implement/Enable constant related optimization rules in Calcite: enable HiveReduceExpressionsRule to fold constants
+
 # spark
 
 * SPARK-14495
